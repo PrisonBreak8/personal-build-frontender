@@ -3,9 +3,18 @@
 	"version": "0.0.1",
 	"description": "Start template with Gulp and Webpack",
 	"author": "Artur",
-	"private": true,
-	"license": "",
+	"license": "MIT",
 	"type": "module",
+	"keywords": [
+		"webpack",
+		"gulp",
+		"javascript"
+	],
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/PrisonBreak8/personal-build-frontender.git"
+	},
+	"homepage": "https://github.com/PrisonBreak8/personal-build-frontender#readme",
 	"scripts": {
 		"start": "npm i --legacy-peer-deps",
 		"dev": "gulp && webpack serve --progress -c config/webpack.dev.js",
