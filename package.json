@@ -1,6 +1,6 @@
 {
 	"name": "personal-build-frontender",
-	"version": "0.0.2",
+	"version": "0.0.3",
 	"description": "Start template with Gulp and Webpack",
 	"author": "Artur",
 	"license": "MIT",
