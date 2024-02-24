@@ -1,3 +1,4 @@
 .idea/
 dist/
-COMAND-NPM.txt
+src/
+gulpfile.js
