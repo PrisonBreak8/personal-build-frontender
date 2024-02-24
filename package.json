@@ -4,7 +4,6 @@
 	"description": "Start template with Gulp and Webpack",
 	"author": "Artur",
 	"license": "MIT",
-	"type": "module",
 	"main": "./src/",
 	"types": "./config/",
 	"keywords": [
