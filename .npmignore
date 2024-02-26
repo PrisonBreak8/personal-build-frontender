@@ -1,4 +1,6 @@
 .idea/
 dist/
-src/
 gulpfile.js
+config/
+COMAND-NPM.txt
+.github/
