@@ -12,9 +12,11 @@
 	],
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/PrisonBreak8/personal-build-frontender.git"
+		"url": "https://github.com/PrisonBreak8/personal-build-frontender.git"
 	},
-	"homepage": "https://github.com/PrisonBreak8/personal-build-frontender#readme",
+	"homepage": "https://github.com/PrisonBreak8/personal-build-frontender",
+	"main": "./src/js/app.js",
+	"bugs": "https://github.com/PrisonBreak8/personal-build-frontender/issues",
 	"scripts": {
 		"start": "npm i --legacy-peer-deps",
 		"dev": "gulp && webpack serve --progress -c config/webpack.dev.js",
@@ -84,6 +86,6 @@
 		"gulp-cheerio": "^1.0.0",
 		"isotope-layout": "^3.0.6",
 		"simplebar": "latest",
-		"personal-build-frontender": "^0.0.6"
+		"personal-build-frontender": "^0.0.7"
 	}
 }
