@@ -86,6 +86,6 @@
 		"gulp-cheerio": "^1.0.0",
 		"isotope-layout": "^3.0.6",
 		"simplebar": "latest",
-		"personal-build-frontender": "^0.0.6"
+		"personal-build-frontender": "^0.0.9"
 	}
 }
