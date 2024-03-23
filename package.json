@@ -83,10 +83,13 @@
 		"webpack-stream": "latest"
 	},
 	"dependencies": {
+		"dynamic-adapt-js-tea": "^0.0.4",
 		"gulp-cheerio": "^1.0.0",
 		"isotope-layout": "^3.0.6",
+		"mixin-module-tea": "^0.0.4",
 		"my-module-dark-theme": "^0.1.0",
 		"personal-build-frontender": "^0.0.9",
-		"simplebar": "latest"
+		"simplebar": "latest",
+		"wtcher-js-tea": "^0.3.0"
 	}
 }
