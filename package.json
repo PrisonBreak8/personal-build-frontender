@@ -65,6 +65,7 @@
 		"nouislider": "latest",
 		"pug": "latest",
 		"pug-loader": "latest",
+		"rollup": "^2.79.1",
 		"sass": "latest",
 		"sass-loader": "latest",
 		"smooth-scroll": "latest",
@@ -83,13 +84,13 @@
 		"webpack-stream": "latest"
 	},
 	"dependencies": {
+		"dynamic-adapt-js-tea": "^0.0.4",
 		"gulp-cheerio": "^1.0.0",
 		"isotope-layout": "^3.0.6",
-		"simplebar": "latest",
-		"personal-build-frontender": "^1.0.3",
-		"my-module-dark-theme": "^0.1.0",
 		"mixin-module-tea": "^0.0.4",
-		"dynamic-adapt-js-tea": "^0.0.4",
+		"my-module-dark-theme": "^0.1.0",
+		"personal-build-frontender": "^1.0.3",
+		"simplebar": "latest",
 		"wtcher-js-tea": "^0.3.0"
 	}
 }
