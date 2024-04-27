@@ -1,10 +1,12 @@
 {
 	"name": "personal-build-frontender",
-	"version": "1.0.5",
-	"description": "Start template with Gulp and Webpack",
 	"author": "Artur",
 	"license": "MIT",
+	"version": "1.0.5",
+	"description": "Start template with Gulp and Webpack",
 	"type": "module",
+	"main": "dist/index.js",
+	"types": "dist/index.d.ts",
 	"keywords": [
 		"webpack",
 		"gulp",
@@ -15,9 +17,9 @@
 		"url": "https://github.com/PrisonBreak8/personal-build-frontender.git"
 	},
 	"homepage": "https://github.com/PrisonBreak8/personal-build-frontender",
-	"main": "./src/js/app.js",
 	"bugs": "https://github.com/PrisonBreak8/personal-build-frontender/issues",
 	"scripts": {
+		"go": "npx rollup -c",
 		"start": "npm i --legacy-peer-deps",
 		"dev": "gulp && webpack serve --progress -c config/webpack.dev.js",
 		"build": "gulp build --build",
@@ -30,7 +32,10 @@
 		"bem": "fls-bemtree-from-html"
 	},
 	"devDependencies": {
+		"@rollup/plugin-babel": "^6.0.4",
+		"@rollup/plugin-typescript": "^11.1.6",
 		"@types/isotope-layout": "^3.0.9",
+		"@types/react": "^18.3.1",
 		"copy-webpack-plugin": "latest",
 		"css-loader": "latest",
 		"del": "latest",
@@ -65,6 +70,8 @@
 		"nouislider": "latest",
 		"pug": "latest",
 		"pug-loader": "latest",
+		"react": "^18.3.1",
+		"react-dom": "^18.3.1",
 		"rollup": "^2.79.1",
 		"sass": "latest",
 		"sass-loader": "latest",
@@ -75,6 +82,7 @@
 		"terser-webpack-plugin": "latest",
 		"tippy.js": "latest",
 		"transform-runtime": "0.0.0",
+		"tslib": "^2.6.2",
 		"vanilla-lazyload": "latest",
 		"vinyl-ftp": "latest",
 		"webp-converter": "2.2.3",
