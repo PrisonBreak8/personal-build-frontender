@@ -2,7 +2,7 @@
 	"name": "personal-build-frontender",
 	"author": "Artur",
 	"license": "MIT",
-	"version": "1.0.5",
+	"version": "1.0.6",
 	"description": "Start template with Gulp and Webpack",
 	"type": "module",
 	"main": "dist/index.js",
